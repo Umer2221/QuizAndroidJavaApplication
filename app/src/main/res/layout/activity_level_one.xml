@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FD3425"
+    android:layout_height="match_parent"
+    tools:context=".LevelsofQuestions.LevelOneActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+
+        <androidx.cardview.widget.CardView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+
+
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            android:layout_height="260dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#CDDC39"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textAlignment="center"
+                    android:text="1. Which animal lays eggs?
+
+\na. Dog
+\nb. Cat
+\nc. Duck
+\nd. Sheep"
+                    android:textColor="#100F0F"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+
+                <EditText
+                    android:id="@+id/AnsOneId"
+                    android:layout_gravity="center"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Asnswer here"
+                    android:textColor="#100F0F"
+                    android:textAlignment="center"
+                    android:textColorHint="#A3A0A0"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/questOneStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textAlignment="center"
+                    android:text="Status"
+                    android:textColor="#EF1302"
+                    android:textSize="15sp"
+                    android:textStyle="italic"
+                    android:gravity="center_horizontal" />
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="submit"
+                    android:onClick="QuestionOne"
+                    android:background="@color/black"
+                    android:textColor="@color/white"
+
+                    android:elevation="5dp"
+                    >
+
+                </Button>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+
+
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            android:layout_height="250dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#E19A20"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textAlignment="center"
+                    android:text="2. A male cow is called?
+
+\na. Ox
+\nb. Dog
+\nc. Sheep
+\nd. Monkey"
+                    android:textColor="#100F0F"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+
+                <EditText
+                    android:id="@+id/AnstwoId"
+                    android:layout_gravity="center"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Asnswer here"
+                    android:textColor="#100F0F"
+                    android:textAlignment="center"
+                    android:textColorHint="#A3A0A0"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/questtwoStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textAlignment="center"
+                    android:text="Status"
+                    android:textColor="#EF1302"
+                    android:textSize="15sp"
+                    android:textStyle="italic"
+                    android:gravity="center_horizontal" />
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="submit"
+                    android:onClick="QuestionTwo"
+                    android:background="@color/black"
+                    android:textColor="@color/white"
+
+                    android:elevation="5dp"
+                    >
+
+                </Button>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+
+
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            android:layout_height="290dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#45CF41"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textAlignment="center"
+                    android:text="3. All animals need food, air, and ____ to survive.
+\na. House
+\nb. Water
+\nc. Chocolate
+\nd. Fruits"
+                    android:textColor="#100F0F"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+
+                <EditText
+                    android:id="@+id/AnsthreeId"
+                    android:layout_gravity="center"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Asnswer here"
+                    android:textColor="#100F0F"
+                    android:textAlignment="center"
+                    android:textColorHint="#A3A0A0"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/questthreeStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textAlignment="center"
+                    android:text="Status"
+                    android:textColor="#EF1302"
+                    android:textSize="15sp"
+                    android:textStyle="italic"
+                    android:gravity="center_horizontal" />
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="submit"
+                    android:onClick="QuestionTHree"
+                    android:background="@color/black"
+                    android:textColor="@color/white"
+
+                    android:elevation="5dp"
+                    >
+
+                </Button>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+
+
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            android:layout_height="270dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#2C8C57"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textAlignment="center"
+                    android:text="4. Which one is a fur-bearing animal?
+\na. Hen
+\nb. Crocodile
+\nc. Tortoise
+\nd. Cat"
+                    android:textColor="#100F0F"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+
+                <EditText
+                    android:id="@+id/AnsFourId"
+                    android:layout_gravity="center"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Asnswer here"
+                    android:textColor="#100F0F"
+                    android:textAlignment="center"
+                    android:textColorHint="#A3A0A0"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/questFourStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textAlignment="center"
+                    android:text="Status"
+                    android:textColor="#EF1302"
+                    android:textSize="15sp"
+                    android:textStyle="italic"
+                    android:gravity="center_horizontal" />
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="submit"
+                    android:onClick="QuestionFour"
+                    android:background="@color/black"
+                    android:textColor="@color/white"
+
+                    android:elevation="5dp"
+                    >
+
+                </Button>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+
+
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            android:layout_height="280dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#CD6026"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textAlignment="center"
+                    android:text="5. What is Earth’s only natural satellite?
+
+\na. Sun
+\nb. Mars
+\nc. Venus
+\nd. Moon"
+                    android:textColor="#100F0F"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+
+                <EditText
+                    android:id="@+id/AnsFiveId"
+                    android:layout_gravity="center"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Asnswer here"
+                    android:textColor="#100F0F"
+                    android:textAlignment="center"
+                    android:textColorHint="#A3A0A0"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/questFiveStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textAlignment="center"
+                    android:text="Status"
+                    android:textColor="#EF1302"
+                    android:textSize="15sp"
+                    android:textStyle="italic"
+                    android:gravity="center_horizontal" />
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="submit"
+                    android:onClick="QuestionFive"
+                    android:background="@color/black"
+                    android:textColor="@color/white"
+
+                    android:elevation="5dp"
+                    >
+
+                </Button>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+
+
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            android:layout_height="280dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#5C6500"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textAlignment="center"
+                    android:text="6. The tree has a branch filled with green _____.
+\na. Hair
+\nb. Root
+\nc. Leaves
+\nd. Trunk"
+                    android:textColor="#100F0F"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+
+                <EditText
+                    android:id="@+id/AnsSixId"
+                    android:layout_gravity="center"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Asnswer here"
+                    android:textColor="#100F0F"
+                    android:textAlignment="center"
+                    android:textColorHint="#A3A0A0"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/questSixStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textAlignment="center"
+                    android:text="Status"
+                    android:textColor="#EF1302"
+                    android:textSize="15sp"
+                    android:textStyle="italic"
+                    android:gravity="center_horizontal" />
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="submit"
+                    android:onClick="QuestionSix"
+                    android:background="@color/black"
+                    android:textColor="@color/white"
+
+                    android:elevation="5dp"
+                    >
+
+                </Button>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+
+
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            android:layout_height="280dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#0BD86E"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textAlignment="center"
+                    android:text="7. What part of the body helps you move?
+\na. Eyes
+\nb. Lungs
+\nc. Pancreas
+\nd. Muscles"
+                    android:textColor="#100F0F"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+
+                <EditText
+                    android:id="@+id/AnsSevenId"
+                    android:layout_gravity="center"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Asnswer here"
+                    android:textColor="#100F0F"
+                    android:textAlignment="center"
+                    android:textColorHint="#A3A0A0"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/questSevenStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textAlignment="center"
+                    android:text="Status"
+                    android:textColor="#EF1302"
+                    android:textSize="15sp"
+                    android:textStyle="italic"
+                    android:gravity="center_horizontal" />
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="submit"
+                    android:onClick="QuestionSeven"
+                    android:background="@color/black"
+                    android:textColor="@color/white"
+
+                    android:elevation="5dp"
+                    >
+
+                </Button>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+
+
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            android:layout_height="280dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#842BFF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textAlignment="center"
+                    android:text="8. The two holes of the nose are called?
+\na. Eyelids
+\nb. Nostrils
+\nc. Nails
+\nd. Hair"
+                    android:textColor="#100F0F"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+
+                <EditText
+                    android:id="@+id/AnsEightId"
+                    android:layout_gravity="center"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Asnswer here"
+                    android:textColor="#100F0F"
+                    android:textAlignment="center"
+                    android:textColorHint="#A3A0A0"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/questEightStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textAlignment="center"
+                    android:text="Status"
+                    android:textColor="#EF1302"
+                    android:textSize="15sp"
+                    android:textStyle="italic"
+                    android:gravity="center_horizontal" />
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="submit"
+                    android:onClick="QuestionEight"
+                    android:background="@color/black"
+                    android:textColor="@color/white"
+
+                    android:elevation="5dp"
+                    >
+
+                </Button>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+
+
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            android:layout_height="280dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#C073E1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textAlignment="center"
+                    android:text="9. What star shines in the day and provides light?
+
+\na. Moon
+\nb. Venus
+\nc. Mars
+\nd. Sun"
+                    android:textColor="#100F0F"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+
+                <EditText
+                    android:id="@+id/AnsNinetId"
+                    android:layout_gravity="center"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Asnswer here"
+                    android:textColor="#100F0F"
+                    android:textAlignment="center"
+                    android:textColorHint="#A3A0A0"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/questNineStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textAlignment="center"
+                    android:text="Status"
+                    android:textColor="#EF1302"
+                    android:textSize="15sp"
+                    android:textStyle="italic"
+                    android:gravity="center_horizontal" />
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="submit"
+                    android:onClick="QuestionNine"
+                    android:background="@color/black"
+                    android:textColor="@color/white"
+
+                    android:elevation="5dp"
+                    >
+
+                </Button>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+
+
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            android:layout_height="260dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FB82C5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textAlignment="center"
+                    android:text="10. Legs have feet and arms have ___.
+
+\na. Ankles
+\nb. Pelvis
+\nc. Hands
+\nd. Skull"
+                    android:textColor="#100F0F"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+
+                <EditText
+                    android:id="@+id/AnsTenId"
+                    android:layout_gravity="center"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Asnswer here"
+                    android:textColor="#100F0F"
+                    android:textAlignment="center"
+                    android:textColorHint="#A3A0A0"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/questTenStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textAlignment="center"
+                    android:text="Status"
+                    android:textColor="#EF1302"
+                    android:textSize="15sp"
+                    android:textStyle="italic"
+                    android:gravity="center_horizontal" />
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="submit"
+                    android:onClick="QuestionTen"
+                    android:background="@color/black"
+                    android:textColor="@color/white"
+
+                    android:elevation="5dp"
+                    >
+
+                </Button>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView
+            >
+        <Button
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="End Now"
+            android:onClick="Submit"
+            android:background="#8F820E"
+            android:textColor="@color/white"
+
+            android:elevation="5dp"
+            >
+
+        </Button>
+
+    </LinearLayout>
+
+</ScrollView>
